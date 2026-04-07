@@ -30,5 +30,9 @@ public class MathApp {
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
 
+// Question 6: Absolute value of -3.8 (must stay double per the question)
+        double negativeValue = -3.8;
+        double absoluteValue = Math.abs(negativeValue);
+        System.out.println("The absolute value of " + negativeValue + " is " + absoluteValue);
     }
 }
