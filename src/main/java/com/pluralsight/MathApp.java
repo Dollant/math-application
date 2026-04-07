@@ -14,5 +14,11 @@ public class MathApp {
         int lowestPrice = Math.min(carPrice, truckPrice);
         System.out.println("The lowest vehicle price is $" + lowestPrice);
 
+// Question 3: Area of a circle with radius 7.25 (radius must stay double per the question)
+        double radius = 7.25;
+        double circleArea = Math.PI * Math.pow(radius,2);
+        System.out.println("The area of a circle with radius " + radius + " is " + circleArea);
+
+
     }
 }
