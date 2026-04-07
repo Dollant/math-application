@@ -38,5 +38,12 @@ public class MathApp {
 // Question 7: Random number between 0 and 1
         double randomNumber = Math.random();
         System.out.println("A random number between 0 and 1: " + randomNumber);
+
+// Question 8: How many minutes are in 24 days
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int totalMinutes = days * hoursPerDay * minutesPerHour;
+        System.out.println("There are " + totalMinutes + " minutes in " + days + " days.");
     }
 }
