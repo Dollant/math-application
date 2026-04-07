@@ -24,7 +24,11 @@ public class MathApp {
         double squareRoot = Math.sqrt(number);
         System.out.println("The square root of " + number + " is " + squareRoot);
 
-
+// Question 5: Distance between points (5, 10) and (85, 50)
+        int x1 = 5, y1 = 10;
+        int x2 =85, y2 = 50;
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
 
     }
 }
